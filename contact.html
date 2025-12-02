@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="kids clothing" />
+    <title>Kiddie Corner</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>Kiddie Corner</h1>
+        <label for="hamburger_checkbox">
+            <img src="images/hamburgericon.png" alt="menu" id="hamburger_image">
+        </label>
+        <input type="checkbox" id="hamburger_checkbox">
+
+        <nav>
+            <a href="index.html" >Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active_nav">Contact</a>
+        </nav>
+    </header>
+
+
+    <form id="contact_form" method="post">
+        <label for="fname">First name</label><br />
+        <input type="text" id="fname" name="first name" autocomplete="name" /><br />
+        <label for="lname">Last name</label><br />
+        <input type="text" id="lname" name="last name" autocomplete="name" /><br />
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="email" autocomplete="email" /><br />
+        <label for="mobile">Mobile</label><br />
+        <input type="text" id="mobile" autocomplete="tel"/><br />
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message"></textarea><br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>  
+    </form>
+
+    <footer>
+      <p>
+        Kiddie Corner &copy; 2025 by Priyanka is licensed under
+        <br>
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank"
+          rel="licenses noopener noreferrer">CC BY-SA 4.0
+          <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="" />
+          <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="" />
+          <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="" />
+        </a>
+      </p>
+</footer>
+
+</body>
+
+</html>

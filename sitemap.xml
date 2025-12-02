@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemap.org/schemas/sitemap/0.9">
+  <url>
+      <loc>http://www.Kiddiecorner.com/index.html</loc>
+      <lastmod>17-11-2025</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>1.0</priority>
+  </url>
+  <url>
+      <loc>http://www.Kiddiecorner.com/gallery.html</loc>
+      <lastmod>17-11-2025</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.8</priority>
+     </url>
+   <url>
+      <loc>http://www.Kiddiecorner.com/about.html</loc>
+      <lastmod>17-11-2025</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.4</priority>
+   </url>
+   <url>
+      <loc>http://www.Kiddiecorner.com/contact.html</loc>
+      <lastmod>17-11-2025</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.6</priority>
+   </url>
+</urlset>
